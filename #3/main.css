@@ -1,0 +1,14 @@
+body {}
+
+h1 {
+    color: #00b894;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
