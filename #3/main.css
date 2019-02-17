@@ -1,18 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat');
 body {
     background-color: #2d3436;
+    height: 100%;
 }
 
-h1 {
-    color: #00b894;
+.clock {
+    font-family: 'Nova Flat', cursive;
+    font-size: 300%;
+    color: #dfe6e9;
+    /* 중앙정렬 배치 용도 */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    /* 가독성 높히기 */
+    text-shadow: 0 0 3px #2d3436;
 }
 
 .form,
 .greetings {
     display: none;
+    /* 중앙정렬 배치 용도 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .showing {
     display: block;
+    /* 가독성 높히기 */
+    text-shadow: 0 0 3px #2d3436;
+    font-family: 'Nova Flat', cursive;
+    font-size: 200%;
+    color: #dfe6e9;
+}
+
+.toDoForm {
+    /* 중앙정렬 배치 용도 */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.toDoList {
+    /* 중앙정렬 배치 용도 */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* 가독성 높히기 */
+    text-shadow: 0 0 3px #2d3436;
+    font-family: 'Nova Flat', cursive;
+    font-size: 200%;
+    color: #dfe6e9;
+}
+
+.weather {
+    /* 중앙정렬 배치 용도 */
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* 가독성 높히기 */
+    text-shadow: 0 0 3px #2d3436;
+    font-family: 'Nova Flat', cursive;
+    font-size: 200%;
+    color: #dfe6e9;
 }
 
 @keyframes fadeIn {
