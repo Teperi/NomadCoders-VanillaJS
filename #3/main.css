@@ -5,10 +5,31 @@ body {
     height: 100%;
 }
 
+.inputstyle {
+    border: 0;
+    border-bottom: 1px solid #dfe6e9;
+    background: transparent;
+    color: #dfe6e9;
+    font-size: 200%;
+    width: 300px;
+    height: 32px;
+}
+
+.btnStyle {
+    border: 0;
+    background: transparent;
+}
+
+input::placeholder {
+    color: #dfe6e9;
+    font-style: italic;
+}
+
 .clock {
     font-family: 'Nova Flat', cursive;
     font-size: 300%;
     color: #dfe6e9;
+    padding-bottom: 10px;
     /* 중앙정렬 배치 용도 */
     position: absolute;
     top: 40%;
@@ -31,6 +52,7 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    margin: 0px;
 }
 
 .showing {
@@ -38,8 +60,11 @@ body {
     /* 가독성 높히기 */
     text-shadow: 0 0 3px #2d3436;
     font-family: 'Nova Flat', cursive;
-    font-size: 200%;
     color: #dfe6e9;
+}
+
+.textsize {
+    font-size: 200%;
 }
 
 .toDoForm {
